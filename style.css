@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+  /* background-image: linear-gradient(green, blue); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(103, 180, 50, 0.6334908963585435) 45%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background-image: url(https___hookagency.com_wp-content_uploads_2015_11_epic-blue-green-gradient-ui-background.jpg);
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
